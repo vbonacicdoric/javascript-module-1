@@ -1,0 +1,1 @@
+console.log("hello world")/Users/occ/Documents/GitHub/javascript-module-1/week-1/InClass/exercise-A.js
