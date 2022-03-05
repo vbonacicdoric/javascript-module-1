@@ -1,4 +1,4 @@
-> const fruits = ['banana', 'apple', 'strawberry', 'kiwi', 'fig', 'orange'];
+const fruits = ['banana', 'apple', 'strawberry', 'kiwi', 'fig', 'orange'];
 
 console.log(fruits[0]);
 console.log(fruits[1]);
