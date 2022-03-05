@@ -9,6 +9,10 @@
 var name = "Daniel";
 var danielsRole = "mentor";
 
+if(danielsRole === "mentor" || danielsRole === "students" ){
+  console.log(`Hi, i'm $(name) i'm a $(danielsrole) `)
+}
+
 /* 
 EXPECTED RESULT
 ---------------
