@@ -4,7 +4,7 @@ const saludo = "hola, me llamo";
 
 const saludoConcatenacion = saludo + " " + miNombre;
 
-const saludoInterpolacion = "${saludo} ${miNombre}";
+const saludoInterpolacion = `${saludo} ${miNombre}`;
 
 console.log(1,saludoConcatenacion);
 
