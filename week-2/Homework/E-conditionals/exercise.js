@@ -7,10 +7,10 @@
 */
 
 var name = "Daniel";
-var danielsRole = "mentor";
+var danielsRole = "student";
 
-if(danielsRole === "mentor" || danielsRole === "students" ){
-  console.log(`Hi, i'm $(name) i'm a $(danielsrole) `)
+if(danielsRole === "mentor" || danielsRole === "student" ){
+  console.log(`Hi, I'm ${name} I'm a ${danielsRole}. `);
 }
 
 /* 
