@@ -2,13 +2,17 @@
 	Write a function that receives an array of string, and console.log all strings that start with letter 'T'
 	https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
 */
-const element = []
 
-function getDaysStartingWithT(array){
-  for (let i = 0; i < array.length; i ++){
-    element.push(array[i])
+
+function getDaysStartingWithT(array) {
+  const days = []
+  for (let i = 0; i< array.length ; i++){
+    const day = array[i];
+    if(day.startsWith('T')){
+      days.push(day)
+    }
   }
-  return element.sort()
+  return days
 }
 
 
@@ -22,5 +26,5 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-setArray(daysOfWeek)
-console.log(element);
+const result = getDaysStartingWithT(daysOfWeek);
+console.log(result);
